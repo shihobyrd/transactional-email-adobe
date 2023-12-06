@@ -10,15 +10,28 @@
         background-color: #ffffff;
         border-top: 4px solid #eb1000;
       }
+
+      .about {
+        background-color: #ffffff;
+      }
     </mj-style>
   </mj-head>
   <mj-body background-color="#e4e4e4">
+    <mj-include path="./components/header.mjml" />
     <mj-raw>
-      <!-- Header -->
+      <!-- About Free Trial -->
     </mj-raw>
-    <mj-section css-class="header" padding="0 50px">
+    <mj-section css-class="about" padding="0 50px">
       <mj-column>
-        <mj-image width="108" padding="40px 0 40px" align="left" src="http://127.0.0.1:5501/assets/Adobe.png" alt="Adobe" title="Adobe" />
+        <mj-text padding="0">
+          Shiho, welcome to your 7‑day free trial!
+        </mj-text>
+        <mj-text padding="0">
+          After the free trial ends on November 28, 2023, you will be charged US$22.99 (plus tax) monthly. At the end of your one-year term, your subscription will automatically renew monthly until you cancel (price subject to change). Cancel before your free trial ends and you won’t be charged. No annual commitment required after the first year. Cancel anytime via Adobe Account or Customer Support.
+        </mj-text>
+        <mj-text padding="0">
+          As a reminder, your Adobe ID is s***********5@gmail.com. Use it to access all your Adobe products and services.
+        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
