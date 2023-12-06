@@ -1,8 +1,10 @@
 <mjml>
   <mj-head>
+    <mj-font name="Raleway" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" />
     <mj-style>
       * {
         box-sizing: border-box;
+        font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Verdana, Arial, sans-serif;
       }
     </mj-style>
     <mj-style inline="inline">
@@ -11,26 +13,44 @@
         border-top: 4px solid #eb1000;
       }
 
-      .about {
+      .about,
+      .customer-support {
         background-color: #ffffff;
       }
     </mj-style>
   </mj-head>
   <mj-body background-color="#e4e4e4">
+
     <mj-include path="./components/header.mjml" />
+
     <mj-raw>
       <!-- About Free Trial -->
     </mj-raw>
-    <mj-section css-class="about" padding="0 50px">
+    <mj-section css-class="about" padding="65px 50px 50px">
       <mj-column>
-        <mj-text padding="0">
-          Shiho, welcome to your 7‑day free trial!
+        <mj-text css-class="header-title" font-size="28px" color="#505050" font-weight="bold" line-height="36px" padding="0">
+          <h3 style="padding: 0; margin: 0;">Shiho, welcome to your 7‑day free trial!</h3>
         </mj-text>
-        <mj-text padding="0">
-          After the free trial ends on November 28, 2023, you will be charged US$22.99 (plus tax) monthly. At the end of your one-year term, your subscription will automatically renew monthly until you cancel (price subject to change). Cancel before your free trial ends and you won’t be charged. No annual commitment required after the first year. Cancel anytime via Adobe Account or Customer Support.
+        <mj-text font-size="18px" color="#505050" padding="40px 0 0" line-height="26px">
+          <p style="font-weight: bold; margin: 0;">After the free trial ends on November 28, 2023, you will be charged US$22.99 (plus tax) monthly. At the end of your one-year term, your subscription will automatically renew monthly until you cancel (price subject to change). Cancel before your free trial ends and you won’t be charged. No annual commitment required after the first year. Cancel anytime via <a href="#" target="_blank" style="color: #1473e6; text-decoration: none;">Adobe Account</a> or <a href="#" target="_blank" style="color: #1473e6; text-decoration: none;">Customer Support.</a></p>
+          <p style="font-weight: normal; margin: 0; padding: 40px 0;">
+            As a reminder, your Adobe ID is s***********5@gmail.com. Use it to access all your Adobe products and services.</p>
         </mj-text>
-        <mj-text padding="0">
-          As a reminder, your Adobe ID is s***********5@gmail.com. Use it to access all your Adobe products and services.
+        <mj-button align="left" padding="0" background-color="#1473e6" border-radius="100px" width="260px" font-size="16px" line-height="22px">
+          Get started
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="customer-support" padding="0 50px 60px" align="left">
+      <mj-divider border-color="#e1e1e1" border-width="1px" />
+      <mj-column width="5%" padding-top="24px">
+        <mj-image src=" http://127.0.0.1:5501/assets/headphones.png" alt="Headphones" title="Headphones" width="24px" align="left" padding="0" />
+      </mj-column>
+      <mj-column width="95%" padding-top="24px">
+        <mj-text color="#505050" font-weight="normal" padding="0 0 0 20px">
+          <p style="margin: 0; padding: 0; font-size: 16px; line-height: 20px">
+            <span style="font-weight: bold;">If you have any questions,</span> we’re here for you. <a href="#" target="_blank" style="color: #1473e6; text-decoration: none;">Contact Adobe Customer Support</a> to chat with a representative.
+          </p>
         </mj-text>
       </mj-column>
     </mj-section>
