@@ -122,6 +122,8 @@
             </mj-column>
           </mj-group>
         </mj-section>
+
+
         <mj-section padding="50px 0 0">
           <mj-column>
             <mj-text font-size="18px" color="#505050" font-weight="bold" line-height="36px" padding="0">
@@ -129,101 +131,124 @@
             </mj-text>
           </mj-column>
         </mj-section>
+
+
         <mj-section padding="40px 0 0">
-          <mj-column width="30%">
-            <mj-text padding="0" font-size="14px" line-height="18px">
-              Order number:
-            </mj-text>
-          </mj-column>
-          <mj-column width="70%">
-            <mj-text color="#505050" font-weight="normal" padding="0 0 0 5px">
-              <a href="#" target="_blank" style="color: #1473e6; text-decoration: none; font-size: 14px; line-height: 18px; font-weight: bold;">AB***********CUS</a>
-            </mj-text>
-          </mj-column>
+          <mj-group width="100%">
+            <mj-column width="30%">
+              <mj-text padding="0" font-size="14px" line-height="18px">
+                Order number:
+              </mj-text>
+            </mj-column>
+            <mj-column width="70%">
+              <mj-text color="#505050" font-weight="normal" padding="0 0 0 5px">
+                <a href="#" target="_blank" style="color: #1473e6; text-decoration: none; font-size: 14px; line-height: 18px; font-weight: bold;">AB***********CUS</a>
+              </mj-text>
+            </mj-column>
+          </mj-group>
         </mj-section>
         <mj-section padding="4px 0 20px">
-          <mj-column width="30%">
-            <mj-text padding="0" font-size="14px" line-height="18px">
-              Ordered:
-            </mj-text>
-          </mj-column>
-          <mj-column width="70%">
-            <mj-text color="#505050" font-weight="normal" padding="0 0 0 5px">
-              <span style="color: #4b4b4b; font-size: 14px; line-height: 18px; font-weight: bold;">November 21, 2023</span>
-            </mj-text>
-          </mj-column>
+          <mj-group width="100%">
+            <mj-column width="30%">
+              <mj-text padding="0" font-size="14px" line-height="18px">
+                Ordered:
+              </mj-text>
+            </mj-column>
+            <mj-column width="70%">
+              <mj-text color="#505050" font-weight="normal" padding="0 0 0 5px">
+                <span style="color: #4b4b4b; font-size: 14px; line-height: 18px; font-weight: bold;">November 21, 2023</span>
+              </mj-text>
+            </mj-column>
+          </mj-group>
         </mj-section>
+
+
         <mj-section padding="24px 0 0">
           <mj-divider border-color="#e1e1e1" border-width="1px" />
-          <mj-column width="8%" padding="16px 0 16px">
-            <mj-image src=" http://127.0.0.1:5501/assets/Photoshop.png" alt="Photoshop" title="Photoshop" width="32px" align="left" padding="0" />
-          </mj-column>
-          <mj-column width="60%" padding="16px 0 16px">
-            <mj-text padding="0 0 0 10px">
-              <p style="color: #000000; margin: 0; padding: 0; font-size: 14px; font-weight: bold; line-height: 18px">
-                Photoshop
-              </p>
-              <p style="color: #000000; margin: 0; padding: 0; font-size: 14px; line-height: 18px">Annual plan, paid monthly</p>
-            </mj-text>
-          </mj-column>
-          <mj-column width="32%" padding="16px 0 16px">
-            <mj-text padding="0" align="right">
-              US$22.99/mo
-            </mj-text>
-          </mj-column>
+          <mj-group width="100%">
+            <mj-column width="8%" padding="16px 0 16px">
+              <mj-image src=" http://127.0.0.1:5501/assets/Photoshop.png" alt="Photoshop" title="Photoshop" width="32px" align="left" padding="0" />
+            </mj-column>
+            <mj-column width="60%" padding="16px 0 16px">
+              <mj-text padding="0 0 0 10px">
+                <p style="color: #000000; margin: 0; padding: 0; font-size: 14px; font-weight: bold; line-height: 18px">
+                  Photoshop
+                </p>
+                <p style="color: #000000; margin: 0; padding: 0; font-size: 14px; line-height: 18px">Annual plan, paid monthly</p>
+              </mj-text>
+            </mj-column>
+            <mj-column width="32%" padding="16px 0 16px">
+              <mj-text padding="0" align="right">
+                US$22.99/mo
+              </mj-text>
+            </mj-column>
+          </mj-group>
           <mj-divider border-color="#e1e1e1" border-width="1px" />
         </mj-section>
+
+
         <mj-section padding="20px 0 0">
-          <mj-column width="15%">
-          </mj-column>
-          <mj-column width="45%">
-            <mj-text padding="0" font-size="14px" line-height="25px" align="left">
-              Subtotal
-            </mj-text>
-          </mj-column>
-          <mj-column width="40%">
-            <mj-text padding="0" font-size="14px" line-height="25px" align="right">US$22.99/mo
-            </mj-text>
-          </mj-column>
+          <mj-group width="100%">
+            <mj-column width="15%">
+            </mj-column>
+            <mj-column width="45%">
+              <mj-text padding="0" font-size="14px" line-height="25px" align="left">
+                Subtotal
+              </mj-text>
+            </mj-column>
+            <mj-column width="40%">
+              <mj-text padding="0" font-size="14px" line-height="25px" align="right">US$22.99/mo
+              </mj-text>
+            </mj-column>
+          </mj-group>
         </mj-section>
+
         <mj-section padding="4px 0 0">
-          <mj-column width="15%">
-          </mj-column>
-          <mj-column width="45%">
-            <mj-text padding="0" font-size="14px" line-height="25px" align="left">
-              Tax/VAT 9.3%
-            </mj-text>
-          </mj-column>
-          <mj-column width="40%">
-            <mj-text padding="0" font-size="14px" line-height="25px" align="right">US$2.14/mo
-            </mj-text>
-          </mj-column>
+          <mj-group width="100%">
+            <mj-column width="15%">
+            </mj-column>
+            <mj-column width="45%">
+              <mj-text padding="0" font-size="14px" line-height="25px" align="left">
+                Tax/VAT 9.3%
+              </mj-text>
+            </mj-column>
+            <mj-column width="40%">
+              <mj-text padding="0" font-size="14px" line-height="25px" align="right">US$2.14/mo
+              </mj-text>
+            </mj-column>
+          </mj-group>
         </mj-section>
+
         <mj-section padding="16px 0 0">
-          <mj-column width="15%">
-          </mj-column>
-          <mj-column width="45%">
-            <mj-text padding="0" font-size="18px" font-weight="bold" line-height="26px" align="left">
-              DUE NOW
-            </mj-text>
-          </mj-column>
-          <mj-column width="40%">
-            <mj-text padding="0" font-size="18px" font-weight="bold" line-height="26px" align="right">US$0.00/mo
-            </mj-text>
-          </mj-column>
+          <mj-group width="100%">
+            <mj-column width="15%">
+            </mj-column>
+            <mj-column width="45%">
+              <mj-text padding="0" font-size="18px" font-weight="bold" line-height="26px" align="left">
+                DUE NOW
+              </mj-text>
+            </mj-column>
+            <mj-column width="40%">
+              <mj-text padding="0" font-size="18px" font-weight="bold" line-height="26px" align="right">US$0.00/mo
+              </mj-text>
+            </mj-column>
+          </mj-group>
         </mj-section>
+
         <mj-section padding="4px 0 0">
-          <mj-column width="15%">
-          </mj-column>
-          <mj-column width="45%">
-            <mj-text padding="0" font-size="18px" font-weight="bold" line-height="26px" align="left">
-              After the free trial ends, on November 28, 2023
-            </mj-text>
-          </mj-column>
-          <mj-column width="40%">
-            <mj-text padding="0" font-size="18px" font-weight="bold" line-height="26px" align="right">US$25.13/mo
-            </mj-text>
-          </mj-column>
+          <mj-group width="100%">
+            <mj-column width="15%">
+            </mj-column>
+            <mj-column width="45%">
+              <mj-text padding="0" font-size="18px" font-weight="bold" line-height="26px" align="left">
+                After the free trial ends, on November 28, 2023
+              </mj-text>
+            </mj-column>
+            <mj-column width="40%">
+              <mj-text padding="0" font-size="18px" font-weight="bold" line-height="26px" align="right">US$25.13/mo
+              </mj-text>
+            </mj-column>
+          </mj-group>
         </mj-section>
       </mj-group>
     </mj-wrapper>
