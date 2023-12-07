@@ -95,28 +95,32 @@
           </mj-column>
         </mj-section>
         <mj-section padding="24px 0 0">
-          <mj-column width="10%">
-            <mj-image src=" http://127.0.0.1:5501/assets/credit-card.png" alt="Credit card" title="Credit card" width="36px" align="left" padding="0" />
-          </mj-column>
-          <mj-column width="90%">
-            <mj-text color="#505050" font-weight="normal" padding="0 0 0 5px">
-              <p style="color: #2c2c2c; margin: 0; padding: 0; font-size: 16px; line-height: 17px">
-                Recurring billing starts <span style="font-weight: bold;">only</span> after your 7-day free trial ends.
-              </p>
-            </mj-text>
-          </mj-column>
+          <mj-group width="100%">
+            <mj-column width="15%">
+              <mj-image src=" http://127.0.0.1:5501/assets/credit-card.png" alt="Credit card" title="Credit card" width="36px" align="left" padding="0" />
+            </mj-column>
+            <mj-column width="85%">
+              <mj-text color="#505050" font-weight="normal" padding="0 0 0 5px">
+                <p style="color: #2c2c2c; margin: 0; padding: 0; font-size: 16px; line-height: 17px">
+                  Recurring billing starts <span style="font-weight: bold;">only</span> after your 7-day free trial ends.
+                </p>
+              </mj-text>
+            </mj-column>
+          </mj-group>
         </mj-section>
         <mj-section padding="24px 0 0">
-          <mj-column width="10%">
-            <mj-image src=" http://127.0.0.1:5501/assets/stopwatch.png" alt="Stopwatch" title="Stopwatch" width="36px" align="left" padding="0" />
-          </mj-column>
-          <mj-column width="90%">
-            <mj-text color="#505050" font-weight="normal" padding="0 0 0 5px">
-              <p style="color: #2c2c2c; margin: 0; padding: 0; font-size: 16px; line-height: 17px">
-                Cancel your annual subscription before December 12, 2023 <span style="font-weight: bold;">to get a full refund and avoid a fee.</span> after your 7-day free trial ends. <a href="#" target="_blank" style="color: #2c2c2c;">Learn more.</a>
-              </p>
-            </mj-text>
-          </mj-column>
+          <mj-group width="100%">
+            <mj-column width="15%">
+              <mj-image src=" http://127.0.0.1:5501/assets/stopwatch.png" alt="Stopwatch" title="Stopwatch" width="36px" align="left" padding="0" />
+            </mj-column>
+            <mj-column width="85%">
+              <mj-text color="#505050" font-weight="normal" padding="0 0 0 5px">
+                <p style="color: #2c2c2c; margin: 0; padding: 0; font-size: 16px; line-height: 17px">
+                  Cancel your annual subscription before December 12, 2023 <span style="font-weight: bold;">to get a full refund and avoid a fee.</span> after your 7-day free trial ends. <a href="#" target="_blank" style="color: #2c2c2c;">Learn more.</a>
+                </p>
+              </mj-text>
+            </mj-column>
+          </mj-group>
         </mj-section>
         <mj-section padding="50px 0 0">
           <mj-column>
