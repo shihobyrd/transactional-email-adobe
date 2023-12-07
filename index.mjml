@@ -53,10 +53,12 @@
       </mj-column>
     </mj-section>
     <mj-section css-class="customer-support" padding="0 50px 60px">
-      <mj-divider border-color="#e1e1e1" border-width="1px" />
+      <mj-column width="100%">
+        <mj-divider border-color="#e1e1e1" border-width="1px" padding="0" />
+      </mj-column>
       <mj-group width="100%">
         <mj-column width="10%" padding-top="24px">
-          <mj-image src=" http://127.0.0.1:5501/assets/headphones.png" alt="Headphones" title="Headphones" width="24px" align="left" padding="0" />
+          <mj-image src="https://raw.githubusercontent.com/shihobyrd/transactional-email-adobe/main/assets/headphones.png" alt="Headphones" title="Headphones" width="24px" align="left" padding="0" />
         </mj-column>
         <mj-column width="90%" padding-top="24px">
           <mj-text color="#505050" font-weight="normal" padding="0">
@@ -83,7 +85,7 @@
         <mj-section padding="24px 0 0">
           <mj-group width="100%">
             <mj-column width="15%">
-              <mj-image src=" http://127.0.0.1:5501/assets/credit-card.png" alt="Credit card" title="Credit card" width="36px" align="left" padding="0" />
+              <mj-image src="https://raw.githubusercontent.com/shihobyrd/transactional-email-adobe/main/assets/credit-card.png" alt="Credit card" title="Credit card" width="36px" align="left" padding="0" />
             </mj-column>
             <mj-column width="85%">
               <mj-text color="#505050" font-weight="normal" padding="0 0 0 5px">
@@ -97,7 +99,7 @@
         <mj-section padding="24px 0 0">
           <mj-group width="100%">
             <mj-column width="15%">
-              <mj-image src=" http://127.0.0.1:5501/assets/stopwatch.png" alt="Stopwatch" title="Stopwatch" width="36px" align="left" padding="0" />
+              <mj-image src="https://raw.githubusercontent.com/shihobyrd/transactional-email-adobe/main/assets/stopwatch.png" alt="Stopwatch" title="Stopwatch" width="36px" align="left" padding="0" />
             </mj-column>
             <mj-column width="85%">
               <mj-text color="#505050" font-weight="normal" padding="0 0 0 5px">
@@ -150,10 +152,12 @@
 
 
         <mj-section padding="24px 0 0">
-          <mj-divider border-color="#e1e1e1" border-width="1px" />
+          <mj-column width="100%">
+            <mj-divider border-color="#e1e1e1" border-width="1px" padding="0" />
+          </mj-column>
           <mj-group width="100%">
             <mj-column width="8%" padding="16px 0 16px">
-              <mj-image src=" http://127.0.0.1:5501/assets/Photoshop.png" alt="Photoshop" title="Photoshop" width="32px" align="left" padding="0" />
+              <mj-image src="https://raw.githubusercontent.com/shihobyrd/transactional-email-adobe/main/assets/Photoshop.png" alt="Photoshop" title="Photoshop" width="32px" align="left" padding="0" />
             </mj-column>
             <mj-column width="60%" padding="16px 0 16px">
               <mj-text padding="0 0 0 10px">
@@ -169,7 +173,9 @@
               </mj-text>
             </mj-column>
           </mj-group>
-          <mj-divider border-color="#e1e1e1" border-width="1px" />
+          <mj-column width="100%">
+            <mj-divider border-color="#e1e1e1" border-width="1px" padding="0" />
+          </mj-column>
         </mj-section>
 
 

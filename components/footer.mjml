@@ -4,7 +4,7 @@
     <mj-wrapper padding="40px 50px 100px" background-color="#f5f5f5">
       <mj-section padding-top="66px">
         <mj-column>
-          <mj-image width="30" padding="0" align="left" src="http://127.0.0.1:5501/assets/Adobe-footer-logo.png" alt="Adobe" title="Adobe" />
+          <mj-image width="30px" padding="0" align="left" src="https://raw.githubusercontent.com/shihobyrd/transactional-email-adobe/main/assets/Adobe-footer-logo.png" alt="Adobe" title="Adobe" />
         </mj-column>
       </mj-section>
       <mj-section>
