@@ -8,6 +8,10 @@
       }
     </mj-style>
     <mj-style inline="inline">
+      .body {
+        padding-bottom: 20px;
+      }
+
       .header {
         background-color: #ffffff;
         border-top: 4px solid #eb1000;
@@ -26,7 +30,7 @@
       }
     </mj-style>
   </mj-head>
-  <mj-body background-color="#e4e4e4">
+  <mj-body background-color="#e4e4e4" css-class="body">
 
     <mj-include path="./components/header.mjml" />
 
@@ -61,8 +65,6 @@
         </mj-text>
       </mj-column>
     </mj-section>
-
-
 
     <mj-raw>
       <!-- Free Trial Details -->
@@ -205,6 +207,8 @@
         </mj-section>
       </mj-group>
     </mj-wrapper>
+
+    <mj-include path="./components/footer.mjml" />
 
   </mj-body>
 </mjml>
