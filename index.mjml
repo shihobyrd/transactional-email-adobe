@@ -7,9 +7,7 @@
         font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Verdana, Arial, sans-serif;
       }
 
-      @media (max-width: 480px) {
-        .customer-suppoot {}
-      }
+      @media (max-width: 480px) {}
     </mj-style>
     <mj-style inline="inline">
       .body {
@@ -49,25 +47,13 @@
         <mj-text font-size="18px" color="#505050" padding="40px 0 0" line-height="26px">
           <p style="font-weight: bold; margin: 0;">After the free trial ends on November 28, 2023, you will be charged US$22.99 (plus tax) monthly. At the end of your one-year term, your subscription will automatically renew monthly until you cancel (price subject to change). Cancel before your free trial ends and you won’t be charged. No annual commitment required after the first year. Cancel anytime via <a href="#" target="_blank" style="color: #1473e6; text-decoration: none;">Adobe Account</a> or <a href="#" target="_blank" style="color: #1473e6; text-decoration: none;">Customer Support.</a></p>
           <p style="font-weight: normal; margin: 0; padding: 40px 0;">
-            As a reminder, your Adobe ID is s***********5@gmail.com. Use it to access all your Adobe products and services.</p>
+            As a reminder, your Adobe ID is s***********5&commat;gmail.com. Use it to access all your Adobe products and services.</p>
+          <a href="#" target="_blank" style="display: inline-block; background-color: #1473e6; color: #ffffff; text-decoration: none; width: 260px; text-align: center; border-radius: 100px; font-size: 16px; line-height: 22px; padding: 10px">Get started</a>
         </mj-text>
-        <mj-button align="left" padding="0" background-color="#1473e6" border-radius="100px" width="260px" font-size="16px" line-height="22px">
-          Get started
-        </mj-button>
       </mj-column>
     </mj-section>
     <mj-section css-class="customer-support" padding="0 50px 60px">
       <mj-divider border-color="#e1e1e1" border-width="1px" />
-      <!-- <mj-group>
-        <mj-column>
-          <mj-image src=" http://127.0.0.1:5501/assets/headphones.png" alt="Headphones" title="Headphones" width="24px" align="left" padding="0" />
-          <mj-text color="#505050" font-weight="normal" padding="0" width="auto">
-            <p style="color: #2c2c2c; margin: 0; padding: 0; font-size: 16px; line-height: 20px">
-              <span style="font-weight: bold;">If you have any questions,</span> we’re here for you. <a href="#" target="_blank" style="color: #1473e6; text-decoration: none;">Contact Adobe Customer Support</a> to chat with a representative.
-            </p>
-          </mj-text>
-        </mj-column>
-      </mj-group> -->
       <mj-group width="100%">
         <mj-column width="10%" padding-top="24px">
           <mj-image src=" http://127.0.0.1:5501/assets/headphones.png" alt="Headphones" title="Headphones" width="24px" align="left" padding="0" />
