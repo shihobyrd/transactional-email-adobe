@@ -8,7 +8,53 @@
         font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Verdana, Arial, sans-serif;
       }
 
-      @media (max-width: 480px) {}
+      @media screen and (max-width: 480px) {
+        .padding {
+          padding-right: 30px !important;
+          padding-left: 30px !important;
+        }
+      }
+
+      .header-title h3 {
+        font-size: 24px;
+        line-height: 28px;
+      }
+
+      .header-text p,
+      .header-text a {
+        font-size: 16px;
+        line-height: 24px;
+      }
+
+      .button {
+        font-size: 14px !important;
+        line-height: 18px !important;
+        padding: 8px !important;
+      }
+
+      .customer-support p {
+        font-size: 14px !important;
+        line-height: 18px !important;
+      }
+
+      .ftd-bg {
+        padding: 20px 30px !important;
+      }
+
+      .ft-text p {
+        font-size: 14px !important;
+      }
+
+      .ftd-text p,
+      .ftd-text a,
+      .ftd-text span {
+        font-size: 12px !important;
+      }
+
+      .ftd-text-bold span {
+        font-size: 16px !important;
+        line-height: 18px !important;
+      }
     </mj-style>
     <mj-style inline="inline">
       .body {
@@ -18,6 +64,11 @@
       .header {
         background-color: #ffffff;
         border-top: 4px solid #eb1000;
+      }
+
+      .padding {
+        padding-right: 50px;
+        padding-left: 50px;
       }
 
       .about,
@@ -36,24 +87,24 @@
   <mj-body background-color="#e4e4e4" css-class="body">
 
     <mj-include path="./components/header.mjml" />
-    mjte
+
     <mj-raw>
       <!-- About Free Trial -->
     </mj-raw>
-    <mj-section css-class="about" padding="65px 50px 50px">
+    <mj-section css-class="about padding" padding-top="65px" padding-bottom="50px">
       <mj-column>
         <mj-text css-class="header-title" font-size="28px" color="#505050" font-weight="bold" line-height="36px" padding="0">
           <h3 style="padding: 0; margin: 0;">Shiho, welcome to your 7‑day free trial!</h3>
         </mj-text>
-        <mj-text font-size="18px" color="#505050" padding="40px 0 0" line-height="26px">
+        <mj-text css-class="header-text" font-size="18px" color="#505050" padding="40px 0 0" line-height="26px">
           <p style="font-weight: bold; margin: 0;">After the free trial ends on November 28, 2023, you will be charged US$22.99 (plus tax) monthly. At the end of your one-year term, your subscription will automatically renew monthly until you cancel (price subject to change). Cancel before your free trial ends and you won’t be charged. No annual commitment required after the first year. Cancel anytime via <a href="#" target="_blank" style="color: #1473e6; text-decoration: none;">Adobe Account</a> or <a href="#" target="_blank" style="color: #1473e6; text-decoration: none;">Customer Support.</a></p>
           <p style="font-weight: normal; margin: 0; padding: 40px 0;">
             As a reminder, your Adobe ID is <a href="#" target="_blank" style="color: #505050; text-decoration: none;">s***********5@gmail.com</a>. Use it to access all your Adobe products and services.</p>
-          <a href="#" target="_blank" style="display: inline-block; background-color: #1473e6; color: #ffffff; text-decoration: none; width: 260px; text-align: center; border-radius: 100px; font-size: 16px; line-height: 22px; padding: 10px">Get started</a>
+          <a class="button" href="#" target="_blank" style="display: inline-block; background-color: #1473e6; color: #ffffff; text-decoration: none; width: 260px; text-align: center; border-radius: 100px; font-size: 16px; line-height: 22px; padding: 10px">Get started</a>
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section css-class="customer-support" padding="0 50px 60px">
+    <mj-section css-class="customer-support padding" padding-top="0" padding-bottom="60px">
       <mj-column width="100%">
         <mj-divider border-color="#e1e1e1" border-width="1px" padding="0" />
       </mj-column>
@@ -74,7 +125,7 @@
     <mj-raw>
       <!-- Free Trial Details -->
     </mj-raw>
-    <mj-wrapper css-class="free-trial-details" padding="0 50px 60px">
+    <mj-wrapper css-class="free-trial-details padding" padding-top="0" padding-bottom="60px">
       <mj-section css-class="ftd-bg">
         <mj-group width="100%">
           <mj-column>
@@ -84,13 +135,11 @@
           </mj-column>
         </mj-group>
 
-
-
         <mj-group width="100%">
           <mj-column width="15%" padding="24px 0 0">
             <mj-image src="https://raw.githubusercontent.com/shihobyrd/transactional-email-adobe/main/assets/credit-card.png" alt="Credit card" title="Credit card" width="36px" align="left" padding="0" />
           </mj-column>
-          <mj-column width="85%" padding="24px 0 0">
+          <mj-column width="85%" padding="24px 0 0" css-class="ft-text">
             <mj-text color="#505050" font-weight="normal" padding="0 0 0 5px">
               <p style="color: #2c2c2c; margin: 0; padding: 0; font-size: 16px; line-height: 17px">
                 Recurring billing starts <span style="font-weight: bold;">only</span> after your 7-day free trial ends.
@@ -105,7 +154,7 @@
             <mj-image src="https://raw.githubusercontent.com/shihobyrd/transactional-email-adobe/main/assets/stopwatch.png" alt="Stopwatch" title="Stopwatch" width="36px" align="left" padding="0" />
 
           </mj-column>
-          <mj-column width="85%" padding="24px 0 0">
+          <mj-column width="85%" padding="24px 0 0" css-class="ft-text">
             <mj-text color="#505050" font-weight="normal" padding="0 0 0 5px">
               <p style="color: #2c2c2c; margin: 0; padding: 0; font-size: 16px; line-height: 17px">
                 Cancel your annual subscription before December 12, 2023 <span style="font-weight: bold;">to get a full refund and avoid a fee.</span> after your 7-day free trial ends. <a href="#" target="_blank" style="color: #2c2c2c;">Learn more.</a>
@@ -125,12 +174,12 @@
 
         <mj-group width="100%">
           <mj-column width="30%" padding="40px 0 0">
-            <mj-text padding="0" font-size="14px" line-height="18px">
-              Order number:
+            <mj-text css-class="ftd-text" padding="0" font-size="14px" line-height="18px">
+              <p style="margin:0;">Order number:</p>
             </mj-text>
           </mj-column>
           <mj-column width="70%" padding="40px 0 0">
-            <mj-text color="#505050" font-weight="normal" padding="0 0 0 5px">
+            <mj-text css-class="ftd-text" color="#505050" font-weight="normal" padding="0 0 0 5px">
               <a href="#" target="_blank" style="color: #1473e6; text-decoration: none; font-size: 14px; line-height: 18px; font-weight: bold;">AB***********CUS</a>
             </mj-text>
           </mj-column>
@@ -138,12 +187,12 @@
 
         <mj-group width="100%">
           <mj-column width="30%" padding="4px 0 20px">
-            <mj-text padding="0" font-size="14px" line-height="18px">
-              Ordered:
+            <mj-text css-class="ftd-text" padding="0" font-size="14px" line-height="18px">
+              <p style="margin:0;">Ordered:</p>
             </mj-text>
           </mj-column>
           <mj-column width="70%" padding="4px 0 20px">
-            <mj-text color="#505050" font-weight="normal" padding="0 0 0 5px">
+            <mj-text css-class="ftd-text" color="#505050" font-weight="normal" padding="0 0 0 5px">
               <span style="color: #4b4b4b; font-size: 14px; line-height: 18px; font-weight: bold;">November 21, 2023</span>
             </mj-text>
           </mj-column>
@@ -159,7 +208,7 @@
             <mj-image src="https://raw.githubusercontent.com/shihobyrd/transactional-email-adobe/main/assets/Photoshop.png" alt="Photoshop" title="Photoshop" width="32px" align="left" padding="0" />
           </mj-column>
           <mj-column width="60%" padding="16px 0 16px">
-            <mj-text padding="0 0 0 10px">
+            <mj-text padding="0 0 0 10px" css-class="ftd-text">
               <p style="color: #000000; margin: 0; padding: 0; font-size: 14px; font-weight: bold; line-height: 18px">
                 Photoshop
               </p>
@@ -167,8 +216,8 @@
             </mj-text>
           </mj-column>
           <mj-column width="32%" padding="16px 0 16px">
-            <mj-text padding="0" align="right">
-              US$22.99/mo
+            <mj-text css-class="ftd-text" padding="0" align="right">
+              <span>US$22.99/mo</span>
             </mj-text>
           </mj-column>
         </mj-group>
@@ -182,12 +231,11 @@
           <mj-column width="15%" padding="20px 0 0">
           </mj-column>
           <mj-column width="45%" padding="20px 0 0">
-            <mj-text padding="0" font-size="14px" line-height="25px" align="left">
-              Subtotal
+            <mj-text css-class="ftd-text" padding="0" font-size="14px" line-height="25px" align="left"><span>Subtotal</span>
             </mj-text>
           </mj-column>
           <mj-column width="40%" padding="20px 0 0">
-            <mj-text padding="0" font-size="14px" line-height="25px" align="right">US$22.99/mo
+            <mj-text css-class="ftd-text" padding="0" font-size="14px" line-height="25px" align="right"><span>US$22.99/mo</span>
             </mj-text>
           </mj-column>
         </mj-group>
@@ -196,12 +244,12 @@
           <mj-column width="15%" padding="4px 0 0">
           </mj-column>
           <mj-column width="45%" padding="4px 0 0">
-            <mj-text padding="0" font-size="14px" line-height="25px" align="left">
-              Tax/VAT 9.3%
+            <mj-text css-class="ftd-text" padding="0" font-size="14px" line-height="25px" align="left"><span>Tax/VAT 9.3%</span>
+
             </mj-text>
           </mj-column>
           <mj-column width="40%" padding="4px 0 0">
-            <mj-text padding="0" font-size="14px" line-height="25px" align="right">US$2.14/mo
+            <mj-text css-class="ftd-text" padding="0" font-size="14px" line-height="25px" align="right"><span>US$2.14/mo</span>
             </mj-text>
           </mj-column>
         </mj-group>
@@ -210,12 +258,12 @@
           <mj-column width="15%" padding="16px 0 0">
           </mj-column>
           <mj-column width="45%" padding="16px 0 0">
-            <mj-text padding="0" font-size="18px" font-weight="bold" line-height="26px" align="left">
-              DUE NOW
+            <mj-text css-class="ftd-text-bold" padding="0" font-size="18px" font-weight="bold" line-height="26px" align="left"><span>DUE NOW</span>
+
             </mj-text>
           </mj-column>
           <mj-column width="40%" padding="16px 0 0">
-            <mj-text padding="0" font-size="18px" font-weight="bold" line-height="26px" align="right">US$0.00/mo
+            <mj-text css-class="ftd-text-bold" padding="0" font-size="18px" font-weight="bold" line-height="26px" align="right"><span>US$0.00/mo</span>
             </mj-text>
           </mj-column>
         </mj-group>
@@ -224,12 +272,11 @@
           <mj-column width="15%" padding="4px 0 0">
           </mj-column>
           <mj-column width="45%" padding="4px 0 0">
-            <mj-text padding="0" font-size="18px" font-weight="bold" line-height="26px" align="left">
-              After the free trial ends, on November 28, 2023
+            <mj-text css-class="ftd-text-bold" padding="0" font-size="18px" font-weight="bold" line-height="26px" align="left"><span>After the free trial ends, on November 28, 2023</span>
             </mj-text>
           </mj-column>
           <mj-column width="40%" padding="4px 0 0">
-            <mj-text padding="0" font-size="18px" font-weight="bold" line-height="26px" align="right">US$25.13/mo
+            <mj-text css-class="ftd-text-bold" padding="0" font-size="18px" font-weight="bold" line-height="26px" align="right"><span>US$25.13/mo</span>
             </mj-text>
           </mj-column>
         </mj-group>

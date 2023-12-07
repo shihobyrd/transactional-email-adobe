@@ -1,7 +1,7 @@
 <mj-raw>
   <!-- Header -->
 </mj-raw>
-<mj-section css-class="header" padding="0 50px">
+<mj-section css-class="header padding" padding-top="0" padding-bottom="0">
   <mj-column>
     <mj-image width="108px" padding="40px 0 0" align="left" src="https://raw.githubusercontent.com/shihobyrd/transactional-email-adobe/main/assets/Adobe.png" alt="Adobe" title="Adobe" />
   </mj-column>
