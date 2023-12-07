@@ -1,5 +1,6 @@
 <mjml>
   <mj-head>
+    <mj-title>Adobe Transactional Email</mj-title>
     <mj-font name="Raleway" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" />
     <mj-style>
       * {
@@ -47,7 +48,7 @@
         <mj-text font-size="18px" color="#505050" padding="40px 0 0" line-height="26px">
           <p style="font-weight: bold; margin: 0;">After the free trial ends on November 28, 2023, you will be charged US$22.99 (plus tax) monthly. At the end of your one-year term, your subscription will automatically renew monthly until you cancel (price subject to change). Cancel before your free trial ends and you won’t be charged. No annual commitment required after the first year. Cancel anytime via <a href="#" target="_blank" style="color: #1473e6; text-decoration: none;">Adobe Account</a> or <a href="#" target="_blank" style="color: #1473e6; text-decoration: none;">Customer Support.</a></p>
           <p style="font-weight: normal; margin: 0; padding: 40px 0;">
-            As a reminder, your Adobe ID is s***********5&commat;gmail.com. Use it to access all your Adobe products and services.</p>
+            As a reminder, your Adobe ID is <a href="#" target="_blank" style="color: #505050; text-decoration: none;">s***********5@gmail.com</a>. Use it to access all your Adobe products and services.</p>
           <a href="#" target="_blank" style="display: inline-block; background-color: #1473e6; color: #ffffff; text-decoration: none; width: 260px; text-align: center; border-radius: 100px; font-size: 16px; line-height: 22px; padding: 10px">Get started</a>
         </mj-text>
       </mj-column>
