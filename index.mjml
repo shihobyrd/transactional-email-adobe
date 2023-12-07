@@ -6,6 +6,10 @@
         box-sizing: border-box;
         font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Verdana, Arial, sans-serif;
       }
+
+      @media (max-width: 480px) {
+        .customer-suppoot {}
+      }
     </mj-style>
     <mj-style inline="inline">
       .body {
@@ -33,7 +37,7 @@
   <mj-body background-color="#e4e4e4" css-class="body">
 
     <mj-include path="./components/header.mjml" />
-
+    mjte
     <mj-raw>
       <!-- About Free Trial -->
     </mj-raw>
@@ -54,16 +58,28 @@
     </mj-section>
     <mj-section css-class="customer-support" padding="0 50px 60px">
       <mj-divider border-color="#e1e1e1" border-width="1px" />
-      <mj-column width="5%" padding-top="24px">
-        <mj-image src=" http://127.0.0.1:5501/assets/headphones.png" alt="Headphones" title="Headphones" width="24px" align="left" padding="0" />
-      </mj-column>
-      <mj-column width="95%" padding-top="24px">
-        <mj-text color="#505050" font-weight="normal" padding="0 0 0 20px">
-          <p style="color: #2c2c2c; margin: 0; padding: 0; font-size: 16px; line-height: 20px">
-            <span style="font-weight: bold;">If you have any questions,</span> we’re here for you. <a href="#" target="_blank" style="color: #1473e6; text-decoration: none;">Contact Adobe Customer Support</a> to chat with a representative.
-          </p>
-        </mj-text>
-      </mj-column>
+      <!-- <mj-group>
+        <mj-column>
+          <mj-image src=" http://127.0.0.1:5501/assets/headphones.png" alt="Headphones" title="Headphones" width="24px" align="left" padding="0" />
+          <mj-text color="#505050" font-weight="normal" padding="0" width="auto">
+            <p style="color: #2c2c2c; margin: 0; padding: 0; font-size: 16px; line-height: 20px">
+              <span style="font-weight: bold;">If you have any questions,</span> we’re here for you. <a href="#" target="_blank" style="color: #1473e6; text-decoration: none;">Contact Adobe Customer Support</a> to chat with a representative.
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-group> -->
+      <mj-group width="100%">
+        <mj-column width="10%" padding-top="24px">
+          <mj-image src=" http://127.0.0.1:5501/assets/headphones.png" alt="Headphones" title="Headphones" width="24px" align="left" padding="0" />
+        </mj-column>
+        <mj-column width="90%" padding-top="24px">
+          <mj-text color="#505050" font-weight="normal" padding="0">
+            <p style="color: #2c2c2c; margin: 0; padding: 0; font-size: 16px; line-height: 20px">
+              <span style="font-weight: bold;">If you have any questions,</span> we’re here for you. <a href="#" target="_blank" style="color: #1473e6; text-decoration: none;">Contact Adobe Customer Support</a> to chat with a representative.
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-group>
     </mj-section>
 
     <mj-raw>
